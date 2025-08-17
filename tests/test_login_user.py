@@ -4,7 +4,7 @@ from helpers.data_generator import generate_email, generate_password
 from helpers.urls import Urls
 
 
-@allure.feature('логин пользователя')
+@allure.feature('Логин пользователя')
 class TestLoginUser:
     @allure.title('Вход под существующим пользователем')
     def test_login_valid_user(self, api_client, registered_user):
@@ -38,3 +38,4 @@ class TestLoginUser:
         assert response.status_code == 401
         assert response.json()['success'] is False
         assert response.json()['message'] == 'email or password are incorrect'
+
