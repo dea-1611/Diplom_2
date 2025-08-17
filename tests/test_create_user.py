@@ -5,9 +5,9 @@ from helpers.data_generator import generate_email, generate_password, generate_n
 from helpers.urls import Urls
 
 
-@allure.feature('User Creation')
+@allure.feature('Создание пользователя')
 class TestCreateUser:
-    @allure.title('Create unique user')
+    @allure.title('Создание уникального пользователя')
     def test_create_unique_user(self, api_client):
         user_data = {
             'email': generate_email(),
@@ -26,7 +26,7 @@ class TestCreateUser:
         assert response.json()['success'] is True
         assert 'accessToken' in response.json()
 
-    @allure.title('Create duplicate user')
+    @allure.title('Создание пользователя, который уже зарегистрирован')
     def test_create_duplicate_user(self, api_client):
         user_data = {
             'email': generate_email(),
@@ -44,7 +44,7 @@ class TestCreateUser:
         assert response.json()['success'] is False
         assert response.json()['message'] == 'User already exists'
 
-    @allure.title('Create user with missing field')
+    @allure.title('Создание пользователя без заполнения одного из обязательных полей')
     @pytest.mark.parametrize('field', ['email', 'password', 'name'])
     def test_create_user_missing_field(self, api_client, field):
         user_data = {
@@ -58,4 +58,5 @@ class TestCreateUser:
 
         assert response.status_code == 403
         assert response.json()['success'] is False
+
         assert response.json()['message'] == 'Email, password and name are required fields'
