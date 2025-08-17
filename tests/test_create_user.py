@@ -18,7 +18,6 @@ class TestCreateUser:
         response = api_client.post(Urls.REGISTER, json=user_data)
 
         if response.status_code == 403:
-            # Пользователь уже существует, пробуем с новыми данными
             user_data['email'] = generate_email()
             response = api_client.post(Urls.REGISTER, json=user_data)
 
@@ -34,10 +33,8 @@ class TestCreateUser:
             'name': generate_name()
         }
 
-        # First registration
         api_client.post(Urls.REGISTER, json=user_data)
 
-        # Second registration attempt
         response = api_client.post(Urls.REGISTER, json=user_data)
 
         assert response.status_code == 403
@@ -60,3 +57,4 @@ class TestCreateUser:
         assert response.json()['success'] is False
 
         assert response.json()['message'] == 'Email, password and name are required fields'
+
