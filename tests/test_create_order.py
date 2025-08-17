@@ -56,7 +56,7 @@ class TestCreateOrder:
         assert response.json()['success'] is False
         assert response.json()['message'] == 'Ingredient ids must be provided'
 
-    @allure.title('Создание заказа с неверным хешем ингредиентов')
+    @allure.title('Создание заказа с неверным  хешем ингредиентов')
     def test_create_order_invalid_ingredients(self, api_client, registered_user):
         headers = {'Authorization': registered_user['token']}
         response = api_client.post(
@@ -69,3 +69,4 @@ class TestCreateOrder:
 
 
         assert 'Internal Server Error' in response.text
+
