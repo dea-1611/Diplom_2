@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"user":{"email":"test_1755622054064_2139@example.com","name":"Константинов Максимильян Валерианович"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE3OWVkMjgwMDAxYjY4MTlkYyIsImlhdCI6MTc1NTYyMjA1NSwiZXhwIjoxNzU1NjIzMjU1fQ.N94UcvR7Inkm3FgN4upK439xLqKvWYwnXun0djGo2kk","refreshToken":"5c7e383ae6e849cfc9c621b0c8efb4a6d60ccc45c01dec41851709a5baa719b93a8b6b29a3ebabab"}

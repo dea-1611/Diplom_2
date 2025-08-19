@@ -1,0 +1,2 @@
+Status Code: 403
+Response: {"success":false,"message":"User already exists"}

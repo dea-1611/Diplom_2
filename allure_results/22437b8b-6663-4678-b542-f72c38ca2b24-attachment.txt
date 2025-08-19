@@ -1,0 +1,3 @@
+URL: https://stellarburgers.nomoreparties.site/api/auth/register
+Headers: None
+Body: {'email': 'test_1755622053395_1684@example.com', 'password': 'h*gcH8Xr@O', 'name': 'Фокин Пантелеймон Владиславович'}

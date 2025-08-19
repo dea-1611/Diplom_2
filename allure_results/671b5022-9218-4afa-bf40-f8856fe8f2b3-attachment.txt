@@ -1,0 +1,3 @@
+URL: https://stellarburgers.nomoreparties.site/api/auth/login
+Headers: None
+Body: {'email': 'test_1755622054064_2139@example.com', 'password': 'tINC@7lj1^'}

@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE4OWVkMjgwMDAxYjY4MTlkZiIsImlhdCI6MTc1NTYyMjA1NiwiZXhwIjoxNzU1NjIzMjU2fQ.2FBOUMxECy_ADSPE74RSMgJbKjfQtIL6rD_finU9RzM","refreshToken":"b4c2ed0642544b093279e31f8f6255e839b5040d5bbe421ce351b7266d24ff25954b30ac4d92deb3","user":{"email":"test_1755622055360_1154@example.com","name":"г-н Быков Борис Изотович"}}
