@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE0OWVkMjgwMDAxYjY4MTlkNCIsImlhdCI6MTc1NTYyMjA1MiwiZXhwIjoxNzU1NjIzMjUyfQ.-tu94VvTgxKm_GneHyBj2kLARYc5AIeA1Ek89lyxfD8","refreshToken":"533a26c4cb29902fc733816dc812e324c0ace92dd49aeb8911c2f643828f166593b4edc6de293fba","user":{"email":"test_1755622051637_3312@example.com","name":"Юлий Харламович Григорьев"}}
