@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"user":{"email":"test_1755622053395_1684@example.com","name":"Фокин Пантелеймон Владиславович"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE2OWVkMjgwMDAxYjY4MTlkYSIsImlhdCI6MTc1NTYyMjA1NCwiZXhwIjoxNzU1NjIzMjU0fQ.-M4dju-oyjOdlfQClSF8nZTlLoGAdVv7BZ5azfF3GxQ","refreshToken":"465dbf7a9df8e733ff4842d0f82507d9c8f481499c8de067b7b61ef13e33eecb4d881c56d19d6624"}

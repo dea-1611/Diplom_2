@@ -1,0 +1,2 @@
+Status Code: 202
+Response: {"success":true,"message":"User successfully removed"}

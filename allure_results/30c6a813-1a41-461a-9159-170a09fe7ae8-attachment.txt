@@ -1,0 +1,2 @@
+Status Code: 403
+Response: {"success":false,"message":"Email, password and name are required fields"}

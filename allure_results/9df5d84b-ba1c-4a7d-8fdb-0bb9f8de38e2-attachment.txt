@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"user":{"email":"test_1755622048000_1849@example.com","name":"Акулина Богдановна Беляева"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWExOWVkMjgwMDAxYjY4MTlkMCIsImlhdCI6MTc1NTYyMjA0OSwiZXhwIjoxNzU1NjIzMjQ5fQ.JDOoIRuA4RkSnlWPR8ufQ7TTB_KAwG0aYrbm6JcVZD0","refreshToken":"d7c921b5b32ac4c2eca7680d5e86ce89ce72e23fe30edb34eee64289cf867fc1fcc52f1cdb2c21f0"}

@@ -1,0 +1,3 @@
+URL: https://stellarburgers.nomoreparties.site/api/auth/register
+Headers: None
+Body: {'email': 'test_1755622051637_3312@example.com', 'password': '+AQTMcKp^7', 'name': 'Юлий Харламович Григорьев'}

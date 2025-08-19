@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"user":{"email":"test_1755622052509_7213@example.com","name":"Ефимова Нинель Макаровна"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE1OWVkMjgwMDAxYjY4MTlkNyIsImlhdCI6MTc1NTYyMjA1MywiZXhwIjoxNzU1NjIzMjUzfQ.rNsHDrufs4IO79pSyFt19ai4aB0MRYSRtSACvcTZ-30","refreshToken":"492873faa5201534bb97830fb841a23368d089965d04883d346f3465ed46441bbdac69258140b501"}

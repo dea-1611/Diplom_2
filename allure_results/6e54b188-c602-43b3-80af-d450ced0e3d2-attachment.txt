@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE5OWVkMjgwMDAxYjY4MTllMyIsImlhdCI6MTc1NTYyMjA1NywiZXhwIjoxNzU1NjIzMjU3fQ.M9qPatdbFHepuN5Gb4vhdXFMqSv7NJ5xNKzaep021RA","refreshToken":"fce7578aef7cae3b2dafff3c818401441e40ce8c857ace9f0ea55f0e45b9546b223854a8fa86630d","user":{"email":"test_1755622056315_9005@example.com","name":"Всемил Елизарович Соловьев"}}
