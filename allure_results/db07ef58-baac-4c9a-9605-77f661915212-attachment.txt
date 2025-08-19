@@ -1,0 +1,3 @@
+URL: https://stellarburgers.nomoreparties.site/api/auth/register
+Headers: None
+Body: {'email': 'test_1755622055360_1154@example.com', 'password': 'eYXFd!iB%1', 'name': 'г-н Быков Борис Изотович'}

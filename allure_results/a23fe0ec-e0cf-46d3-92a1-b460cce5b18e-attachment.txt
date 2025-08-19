@@ -1,0 +1,3 @@
+URL: https://stellarburgers.nomoreparties.site/api/orders
+Headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWE1OWVkMjgwMDAxYjY4MTlkNyIsImlhdCI6MTc1NTYyMjA1MywiZXhwIjoxNzU1NjIzMjUzfQ.rNsHDrufs4IO79pSyFt19ai4aB0MRYSRtSACvcTZ-30'}
+Body: {'ingredients': ['invalid_hash_1', 'invalid_hash_2']}

@@ -1,0 +1,2 @@
+Status Code: 200
+Response: {"success":true,"user":{"email":"test_1755622057110_5526@example.com","name":"Нинель Львовна Силина"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YTRhYWFhOWVkMjgwMDAxYjY4MTllNiIsImlhdCI6MTc1NTYyMjA1OCwiZXhwIjoxNzU1NjIzMjU4fQ.2PaP0HhQ0253e1fN1Es6EcPYCcP344IfWq_ifMelL0w","refreshToken":"c0079e31fc26a78fb9e8c0dbdeb825d5f67c7a51ecb82cbd950fbd982f2bc79f0f8389cabd55110a"}
